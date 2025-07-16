@@ -1,0 +1,55 @@
+/* 文字樣式 */
+.h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.h2{
+	font-size: 32px;
+	font-weight: 700;
+}
+.h3{
+    font-size: 28px;
+	font-weight: 700;
+}
+.h4{
+	font-size: 24px;
+	font-weight: 700;
+}
+.h5{
+	font-size: 20px;
+	font-weight: 700;
+}
+.h6{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.fz-lg{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.fz-sm{
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-primary{
+	color: var(--neutral-900);
+}
+.text-secondary{
+    color:var(--neutral-600);
+}
+.text-muted{
+    color: var(--neutral-500);
+}
+.text-hightlight{
+    color:var(--primary-400);
+}
+.text-on-dark{
+    color:var(--neutral);
+}
+

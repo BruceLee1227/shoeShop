@@ -1,5 +1,30 @@
+
+@import './utils/utils';
+@import './utils/variables';
+
+@import './vendors/bootstrap';
+@import './vendors/fontStyle';
+
+@import './base/reset';
+@import './base/typography';
+
+@import './layout/header';
+@import './layout/footer';
+
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
+@import './components/button';
+@import './components/flex';
 
+@import './components/row';
 @import './pages/index.scss';
+
+
+// 引入順序
+// utils/
+// vendors/
+// base/
+// layout/
+// components/
+// pages/

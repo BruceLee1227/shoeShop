@@ -1,0 +1,22 @@
+/* 基本樣式 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+	height: auto;
+	max-width: 100%;
+}
+a{
+    text-decoration: none;
+	display: block;
+	color:var(--neutral-900);
+}
+body{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+	font-size: 16px;
+}
