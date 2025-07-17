@@ -4,6 +4,12 @@
 *::after {
   box-sizing: border-box;
 }
+body{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+	font-size: 16px;
+}
 img{
     vertical-align: middle;
 	height: auto;
@@ -13,10 +19,4 @@ a{
     text-decoration: none;
 	display: block;
 	color:var(--neutral-900);
-}
-body{
-	font-family: "Noto Sans TC", sans-serif;
-	line-height: 1.2;
-	letter-spacing: 0.05em;
-	font-size: 16px;
 }

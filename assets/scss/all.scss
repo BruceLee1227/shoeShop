@@ -1,12 +1,13 @@
 
-@import './utils/utils';
-@import './utils/variables';
-
 @import './vendors/bootstrap';
 @import './vendors/fontStyle';
 
+@import './utils/utils';
+@import './utils/variables';
+
 @import './base/reset';
 @import './base/typography';
+@import './base/base';
 
 @import './layout/header';
 @import './layout/footer';

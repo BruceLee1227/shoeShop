@@ -1,5 +1,5 @@
-.header{
-  background: #564655;
-  font-size: 256px;
-  color:red;
+.hover{
+  &:hover{
+    color:var(--primary-500);
+  }
 }
