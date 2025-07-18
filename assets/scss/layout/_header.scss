@@ -3,3 +3,8 @@
     color:var(--primary-500);
   }
 }
+@media (max-width:767px) {
+  .d-none{
+    display: none;
+  }
+}

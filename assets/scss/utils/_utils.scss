@@ -27,10 +27,7 @@
 	padding-top: 64px;
 	padding-bottom: 64px;
 }
-.mx-auto{
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .mb-4{
 	margin-bottom: 4px;
 }
@@ -43,15 +40,6 @@
 .mb-16{
 	margin-bottom: 16px;
 }
-.ml-12{
-	margin-left: 12px;
-}
-.ml-24{
-	margin-left: 24px;
-}
-.mb-24{
-	margin-bottom: 24px;
-}
 .mb-32{
 	margin-bottom: 32px;
 }
@@ -61,19 +49,33 @@
 .mb-48{
 	margin-bottom: 48px;
 }
-.ml-8{
-	margin-left: 8px;
-}
 .mb-64{
 	margin-bottom: 64px;
 }
-.ml-48{
-	margin-left: 48px;
+.ml-12{
+	margin-left: 12px;
+}
+.ml-8{
+	margin-left: 8px;
+}
+.ml-24{
+	margin-left: 24px;
+}
+.mb-24{
+	margin-bottom: 24px;
 }
 .ml-40{
 	margin-left: 40px;
 }
+.ml-48{
+	margin-left: 48px;
+}
+
 /* 間距 */
 .gap-8{
 	gap: 8px;
+}
+
+.hr{
+    color: var(--neutral-300);
 }
