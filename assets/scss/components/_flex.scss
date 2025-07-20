@@ -24,6 +24,9 @@
   .d-md-block{
     display: block;
   }
+  .d-md-column{
+    flex-direction: column;
+  }
 }
 @media (max-width:576px) {
   .d-sm-none{

@@ -30,3 +30,28 @@
 	border-radius: 4px;
 	border: 1px solid var(--neutral-300);
 }
+
+/* 麵包屑切換鈕 */
+.bread{
+	&-divider+&-divider::before{
+		content: "/";
+		padding-left: 12px;
+		padding-right: 12px;
+		color: var(--neutral-300);
+		font-weight: 700;
+		@media(max-width: 767px){
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	}
+	&-divider{
+		display: flex;
+		font-weight: 500;
+	}
+	&-link{
+		color:var(--neutral-600);
+	}
+	&-selected{
+		color:var(--neutral-900);
+	}
+}

@@ -7,35 +7,19 @@
         }
     }
 }
-.products{
+.product{
+	&-color{
+		width: 64px;
+		text-align: center;
+		color: var(--neutral-600);
+	}
     &-img{
         &:hover{
             opacity: 0.8;
         }
     }
 }  
-/* 麵包屑切換鈕 */
-.bread-divider+.bread-divider::before{
-	content: "/";
-	padding-left: 12px;
-	padding-right: 12px;
-	color: var(--neutral-300);
-	font-weight: 700;
-	@media(max-width: 767px){
-		padding-left: 8px;
-		padding-right: 8px;
-	}
-}
-.bread-divider{
-	display: flex;
-	font-weight: 500;
-}
-.bread-link{
-	color:var(--neutral-600);
-}
-.bread-selected{
-	color:var(--neutral-900);
-}
+
 .menu .actived{
 	color:var(--primary-400);
 }
