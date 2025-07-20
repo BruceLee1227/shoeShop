@@ -74,11 +74,17 @@
 	margin-bottom: 64px;
 }
 @media(max-width:767px) {
+	.mb-md-4{
+		margin-bottom: 4px;
+	}
 	.mb-md-12{
 		margin-bottom: 12px;
 	}
 	.mb-md-16{
 		margin-bottom: 16px;
+	}
+	.mb-md-24{
+		margin-bottom: 24px;
 	}
 	.mb-md-32{
 		margin-bottom: 32px;
@@ -102,7 +108,14 @@
 .ml-48{
 	margin-left: 48px;
 }
-
+@media (max-width: 767px) {
+	.ml-md-12{
+		margin-left: 12px;
+	}
+	.ml-md-16{
+		margin-left: 16px;
+	}
+}
 /* 間距 */
 .gap-8{
 	gap: 8px;

@@ -8,6 +8,11 @@
 	letter-spacing: 0.05em;
 	cursor: pointer;
 	border: none;
+	@media (max-width: 767px) {
+		&-md{
+			padding: 8px 16px;
+		}
+	}
 }
 .lg{
 	border: 1px solid var(--neutral-900);
