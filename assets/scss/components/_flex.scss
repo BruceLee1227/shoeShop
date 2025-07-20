@@ -14,8 +14,19 @@
 .flex-wrap{
 	flex-wrap: wrap;
 }
-@media (max-width: 767px) {
-    .d-md-block{
-        display: block;
-    }
+.d-none{
+    display: none;
+}
+@media (max-width:767px) {
+  .d-md-none{
+    display: none;
+  }
+  .d-md-block{
+    display: block;
+  }
+}
+@media (max-width:576px) {
+  .d-sm-none{
+    display: none;
+  }
 }

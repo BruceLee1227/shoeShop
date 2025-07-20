@@ -1,0 +1,59 @@
+//圖片與連結互動效果
+
+.menu{
+    a{
+        &:hover{
+            color:var(--primary-500);
+        }
+    }
+}
+.products{
+    &-img{
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}  
+/* 麵包屑切換鈕 */
+.bread-divider+.bread-divider::before{
+	content: "/";
+	padding-left: 12px;
+	padding-right: 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+	@media(max-width: 767px){
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+.bread-divider{
+	display: flex;
+	font-weight: 500;
+}
+.bread-link{
+	color:var(--neutral-600);
+}
+.bread-selected{
+	color:var(--neutral-900);
+}
+.menu .actived{
+	color:var(--primary-400);
+}
+// 分頁按鈕樣式
+.pagelist-btn{
+	padding: 8px 15px;
+	font-weight: 400;
+	color: var(--neutral-900);
+
+}
+.pagebutton-list{
+	.actived{
+		background-color: var(--primary-300);
+		font-weight: 500;	
+	}
+	a{
+		&:hover{
+			background-color: var(--primary-300);
+		}
+	}
+}
