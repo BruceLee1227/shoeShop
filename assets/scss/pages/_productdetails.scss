@@ -1,4 +1,7 @@
 .product{
+    &-btn{
+        display: flex;
+    }
     &-row{
         display: flex;
         flex-wrap: wrap;
@@ -9,5 +12,12 @@
         padding-left: 4px;
         padding-right: 4px;
         width: calc(100% / 2);
+    }
+}
+.instructions{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    &-color{
+        color:var(--neutral-600);
     }
 }

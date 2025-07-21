@@ -48,6 +48,9 @@
 .text-on-dark{
     color:var(--neutral-white);
 }
+.danger{
+	color: var(--danger-300);
+}
 @media (max-width: 767px) {
 	.h1-md{
 		font-size: 28px;
