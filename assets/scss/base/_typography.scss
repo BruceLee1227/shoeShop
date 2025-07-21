@@ -1,4 +1,10 @@
 /* 文字樣式 */
+.display{
+	&-1{
+		font-size: 64px;
+		font-weight: 700;
+	}
+}
 .h1{
     font-size: 40px;
     font-weight: 700;

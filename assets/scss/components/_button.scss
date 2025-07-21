@@ -8,12 +8,21 @@
 	letter-spacing: 0.05em;
 	cursor: pointer;
 	border: none;
+	&-primary{
+	background-color: var(--primary-300);
+	color: var(--neutral-900);
+	border: none;
+	&:hover{
+		background-color: var(--primary-500);
+	}
+}
 	@media (max-width: 767px) {
 		&-md{
 			padding: 8px 16px;
 		}
 	}
 }
+
 .lg{
 	border: 1px solid var(--neutral-900);
 	width: 50%;
