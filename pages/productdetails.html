@@ -8,31 +8,34 @@
 <body>
     <%- include('./layout/header'); -%>
     <main class="py-64 container">
+        <div class="d-none d-md-block mb-24">
+            <img src="/assets/images/product/image.png" alt="">
+        </div>
         <div class="row">
-            <div class="col-7 col-md-4">
-                <div class="product-row product-overflow-x-md">
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+            <div class="col-7 d-md-none">
+                <div class="product-row">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-1.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-6.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-5.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-4.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-2.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-3.png" alt="商品圖片">
                     </div>
-                    <div class="product-col-6 mb-8 col-md-4 product-md-flex-0-auto">
+                    <div class="product-col-6 mb-8">
                         <img src="/assets/images/product/image-7.png" alt="商品圖片">
                     </div>
                 </div>
@@ -86,9 +89,10 @@
                     <p class="danger fz-sm">僅剩 3 雙</p>
                 </div>
                 <!-- 預約與收藏按鈕 -->
-                <div class="product-btn gap-8 mb-32 product-reverse">
-                    <button class="btn lg"><a href="favorite.html"><i class="bi bi-heart"></i>加入收藏</a></button>
-                    <button class="btn lg d-md-none"><i class="bi bi-handbag"></i>門市預約試穿</button>
+                <div class="product-btn mb-32 product-reverse">
+                    <button class="btn lg d-md-none"><a href="favorite.html"><i class="bi bi-heart"></i><span class="ml-8">加入收藏</span></a></button>
+                    <button class="btn lg"><i class="bi bi-handbag"></i><span class="ml-8">門市預約試穿</span></button>
+                    <button class="d-none d-md-block"><i class="bi bi-heart-fill"></i></button>
                 </div>
                 <!-- 購買須知 -->
                 <div class="instructions">

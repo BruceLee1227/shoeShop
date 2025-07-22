@@ -12,19 +12,7 @@
     }
     &-btn{
         display: flex;
-    }
-    @media (max-width: 767px) {
-        &-reverse{
-            flex-direction: row-reverse;
-        }
-        &-overflow-x-md{
-            display: flex;
-            overflow-x: auto;
-            flex-wrap: nowrap;
-        }
-        &-md-flex-0-auto{
-            flex: 0 0 auto;
-        }
+        gap: 8px;
     }
 }
 .instructions{
@@ -33,4 +21,8 @@
     &-color{
         color:var(--neutral-600);
     }
+}
+.img-box{
+    margin-left: 12px;
+    margin-right: 12px;
 }
