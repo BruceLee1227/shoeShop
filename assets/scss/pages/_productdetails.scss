@@ -1,7 +1,4 @@
 .product{
-    &-btn{
-        display: flex;
-    }
     &-row{
         display: flex;
         flex-wrap: wrap;
@@ -12,6 +9,22 @@
         padding-left: 4px;
         padding-right: 4px;
         width: calc(100% / 2);
+    }
+    &-btn{
+        display: flex;
+    }
+    @media (max-width: 767px) {
+        &-reverse{
+            flex-direction: row-reverse;
+        }
+        &-overflow-x-md{
+            display: flex;
+            overflow-x: auto;
+            flex-wrap: nowrap;
+        }
+        &-md-flex-0-auto{
+            flex: 0 0 auto;
+        }
     }
 }
 .instructions{
