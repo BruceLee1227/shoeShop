@@ -42,7 +42,11 @@
     font-weight: 400;
 }
 @media (max-width: 767px) {
-    .overflow-x{
+    .overflow-md-x{
         overflow-x: auto;
+    }
+    .shoe-box{
+        margin-left: -12px;
+        margin-right: -12px;
     }
 }

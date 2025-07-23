@@ -1,3 +1,85 @@
+/* 容器 */
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -12px;
+	margin-left: -12px;
+	@media (max-width: 767px) {
+		margin-right: -6px;
+		margin-left: -6px;
+	}
+}
+/* .col{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12);
+} */
+.col{
+	&-2{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 2);
+
+	}
+	&-3{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 3);
+	}
+	&-4{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 4);
+	}
+	&-5{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 5);
+	}
+	&-7{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 7);
+	}
+	&-8{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 * 8);
+	}
+	&-10{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: calc(100% / 12 *10);
+	}
+	&-12{
+		padding-left: 12px;
+		padding-right: 12px;
+		width: 100%;
+	}
+	@media (max-width:767px) {
+		&-md-2{
+			padding-left: 6px;
+			padding-right: 6px;
+			width: calc(100% / 4 * 2);
+		}
+		&-md-3{
+			padding-left: 6px;
+			padding-right: 6px;
+			min-width: 300px;
+		}
+		&-md-4{
+			padding-left: 6px;
+			padding-right: 6px;
+			width: 100%;
+		}
+	}
+}
 /* padding與margin */
 .pr-8{
 	padding-right: 8px;
@@ -137,4 +219,46 @@
 
 .hr{
     color: var(--neutral-300);
+}
+
+/* Flex */
+.d{
+  &-flex{
+    display: flex;
+  }
+  &-none{
+    display: none;
+  }
+  @media (max-width:767px) {
+    &-md-none{
+      display: none;
+    }
+    &-md-block{
+      display: block;
+    }
+    
+  }
+}
+.flex{
+  &-wrap{
+    flex-wrap: wrap;
+  }
+  &-column{
+    flex-direction: column;
+  }
+  @media (max-width:767px) {
+    &-md-nowrap{
+      flex-wrap: nowrap;
+    }
+  }
+}
+
+.jcc{
+	justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
 }
