@@ -14,6 +14,17 @@
         display: flex;
         gap: 8px;
     }
+    @media (max-width: 767px) {
+        &-md-row{
+            margin-left: -6px;
+            margin-right: -6px;
+        }
+        &-md-col-6{
+            padding-left: 6px;
+            padding-right: 6px;
+            width: calc(100% / 2);
+        }
+    }
 }
 .instructions{
     padding-top: 12px;
@@ -23,6 +34,13 @@
     }
 }
 .img-box{
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.del{
+    font-size: 14px;
+    font-weight: 400;
+}
+.overflow-x{
+    overflow-x: auto;
 }

@@ -8,7 +8,7 @@
 <body>
     <%- include('./layout/header'); -%>
     <main class="py-64 container">
-        <div class="d-none d-md-block mb-24">
+        <div class="d-none d-md-block mb-24 img-box">
             <img src="/assets/images/product/image.png" alt="">
         </div>
         <div class="row">
@@ -53,7 +53,7 @@
                 <div class="mb-32">
                     <h1 class="h2 mb-16">Platform 404</h1>
                     <p class="text-hightlight h5 mb-16">NT$2,600
-                    <del class="ml-8 text-muted">NT$3,200</del>
+                    <del class="ml-8 text-muted del">NT$3,200</del>
                     </p>
                     <p class="mb-12">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
                     <p>鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
@@ -89,10 +89,13 @@
                     <p class="danger fz-sm">僅剩 3 雙</p>
                 </div>
                 <!-- 預約與收藏按鈕 -->
-                <div class="product-btn mb-32 product-reverse">
+                <div class="product-btn mb-32 aic">
+                    <!-- <a href="#" class="btn lg d-md-none"><i class="bi bi-heart"></i><span class="ml-8">加入收藏</span></a>
+                    <a href="#" class="btn lg"><i class="bi bi-handbag"></i><span class="ml-8">門市預約試穿</span></a>
+                    <a href="#" class="d-none d-md-block"><i class="bi bi-heart-fill"></i></a> -->
                     <button class="btn lg d-md-none"><a href="favorite.html"><i class="bi bi-heart"></i><span class="ml-8">加入收藏</span></a></button>
                     <button class="btn lg"><i class="bi bi-handbag"></i><span class="ml-8">門市預約試穿</span></button>
-                    <button class="d-none d-md-block"><i class="bi bi-heart-fill"></i></button>
+                    <div class="d-none d-md-block"><i class="bi bi-heart-fill"></i></div>
                 </div>
                 <!-- 購買須知 -->
                 <div class="instructions">
@@ -128,24 +131,24 @@
     </main>
     <div class="container">
         <div class="py-48  mb-40">
-            <h2 class="h4 text-primary mb-16">你可能也喜歡...</h2>
-            <div class="row">
-                <div class="col-3 col-md-4">
+            <h2 class="h4 text-primary mb-16 h4-md">你可能也喜歡...</h2>
+            <div class="row row-sm overflow-x">
+                <div class="col-3 col-sm-3">
                     <img src="/assets/images/product/product-2.png" alt="商品圖片" class="mb-12">
                     <p class="mb-4">VM001</p>
                     <p>NT$2,600</p>
                 </div>
-                <div class="col-3 col-md-4">
+                <div class="col-3 col-sm-3">
                     <img src="/assets/images/product/product-3.png" alt="商品圖片" class="mb-12">
                     <p class="mb-4">VM001</p>
                     <p>NT$2,600</p>
                 </div>
-                <div class="col-3 col-md-4">
+                <div class="col-3 col-sm-3">
                     <img src="/assets/images/product/product-4.png" alt="商品圖片" class="mb-12">
                     <p class="mb-4">VM001</p>
                     <p>NT$2,600</p>
                 </div>
-                <div class="col-3 col-md-4">
+                <div class="col-3 col-sm-3">
                     <img src="/assets/images/product/product-7.png" alt="商品圖片" class="mb-12">
                     <p class="mb-4">VM001</p>
                     <p>NT$2,600</p>
