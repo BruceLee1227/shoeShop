@@ -41,6 +41,8 @@
     font-size: 14px;
     font-weight: 400;
 }
-.overflow-x{
-    overflow-x: auto;
+@media (max-width: 767px) {
+    .overflow-x{
+        overflow-x: auto;
+    }
 }

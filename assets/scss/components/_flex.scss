@@ -23,6 +23,11 @@
   &-column{
     flex-direction: column;
   }
+  @media (max-width:767px) {
+    &-md-nowrap{
+      flex-wrap: nowrap;
+    }
+  }
 }
 
 .jcc{
