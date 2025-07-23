@@ -29,25 +29,27 @@
 	font-size: 16px;
 	font-weight: 700;
 }
-
-.text-center{
-	text-align: center;
-}
-.text-primary{
+.text{
+	&-center{
+		text-align: center;
+	}
+	&-primary{
 	color: var(--neutral-900);
-}
-.text-secondary{
+	}
+	&-secondary{
     color:var(--neutral-600);
-}
-.text-muted{
+	}
+	&-muted{
     color: var(--neutral-500);
-}
-.text-hightlight{
+	}
+	&-hightlight{
     color:var(--primary-400);
-}
-.text-on-dark{
+	}
+	&-on-dark{
     color:var(--neutral-white);
+	}
 }
+
 .danger{
 	color: var(--danger-300);
 }

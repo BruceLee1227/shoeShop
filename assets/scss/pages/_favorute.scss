@@ -25,9 +25,8 @@
         padding-right: 12px;
         width: 100%;
     }
-}
-.time{
+    &-time{
     background-color: var(--primary-100);
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 16px;
+    }
 }
