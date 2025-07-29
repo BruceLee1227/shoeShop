@@ -10,7 +10,7 @@
 	flex-wrap: wrap;
 	margin-right: -12px;
 	margin-left: -12px;
-	@media (max-width: 767px) {
+	@include pad{
 		margin-right: -6px;
 		margin-left: -6px;
 	}
@@ -67,7 +67,7 @@
 		padding-right: 12px;
 		width: 100%;
 	}
-	@media (max-width:767px) {
+	@include pad{
 		&-md-2{
 			padding-left: 6px;
 			padding-right: 6px;
@@ -117,7 +117,7 @@
 	padding-top: 64px;
 	padding-bottom: 64px;
 }
-@media (max-width:767px) {
+@include pad{
 	.py-md-12{
 		padding-top: 12px;
 		padding-bottom: 12px;
@@ -130,13 +130,38 @@
 		padding-top: 32px;
 		padding-bottom: 32px;
 	}
+	.ml-md-12{
+		margin-left: 12px;
+	}
+	.ml-md-16{
+		margin-left: 16px;
+	}
+	.mb-md-4{
+		margin-bottom: 4px;
+	}
+	.mb-md-8{
+		margin-bottom: 8px;
+	}
+	.mb-md-12{
+		margin-bottom: 12px;
+	}
+	.mb-md-16{
+		margin-bottom: 16px;
+	}
+	.mb-md-24{
+		margin-bottom: 24px;
+	}
+	.mb-md-32{
+		margin-bottom: 32px;
+	}
 }
-@media (max-width:576px) {
+@include mobile{
 	.py-sm-12{
 		padding-top: 12px;
 		padding-bottom: 12px;
 	}
 }
+
 .mb-4{
 	margin-bottom: 4px;
 }
@@ -190,32 +215,7 @@
 	margin-left: 48px;
 }
 @media (max-width: 767px) {
-	.ml-md-12{
-		margin-left: 12px;
-	}
-	.ml-md-16{
-		margin-left: 16px;
-	}
-}
-@media(max-width:767px) {
-	.mb-md-4{
-		margin-bottom: 4px;
-	}
-	.mb-md-8{
-		margin-bottom: 8px;
-	}
-	.mb-md-12{
-		margin-bottom: 12px;
-	}
-	.mb-md-16{
-		margin-bottom: 16px;
-	}
-	.mb-md-24{
-		margin-bottom: 24px;
-	}
-	.mb-md-32{
-		margin-bottom: 32px;
-	}
+	
 }
 /* 間距 */
 .gap-8{
@@ -234,14 +234,13 @@
   &-none{
     display: none;
   }
-  @media (max-width:767px) {
-    &-md-none{
+  @include pad{
+	&-md-none{
       display: none;
     }
     &-md-block{
       display: block;
     }
-    
   }
 }
 .flex{
@@ -251,8 +250,8 @@
   &-column{
     flex-direction: column;
   }
-  @media (max-width:767px) {
-    &-md-nowrap{
+  @include pad{
+	&-md-nowrap{
       flex-wrap: nowrap;
     }
   }

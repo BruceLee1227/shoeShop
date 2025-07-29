@@ -14,8 +14,8 @@
         display: flex;
         gap: 8px;
     }
-    @media (max-width: 767px) {
-        &-md-row{
+    @include pad{
+         &-md-row{
             margin-left: -6px;
             margin-right: -6px;
         }
@@ -41,7 +41,7 @@
     font-size: 14px;
     font-weight: 400;
 }
-@media (max-width: 767px) {
+@include pad{
     .overflow-md-x{
         overflow-x: auto;
     }

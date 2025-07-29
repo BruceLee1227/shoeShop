@@ -4,9 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-@media (max-width: 767px) {
-    .bg{
+    @include pad{
         background-image: url('/assets/images/about/hero-sm.png');
         padding: 87px 0;
     }
@@ -16,9 +14,7 @@
     border-radius: 4px;
     padding: 32px;
     text-align: center;
-}
-@media(max-width: 767px) {
-    .slogan{
+    @include pad{
         text-align: left;
     }
 }
